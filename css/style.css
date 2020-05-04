@@ -1,0 +1,45 @@
+body{
+  position: relative;
+  background-image: url(../imagens/sky-828648_1920.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body,h2{
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+.calculadora{
+  border: 2px solid rgb(61, 61, 61); 
+  border-radius: 20px;
+  text-align: center;
+  opacity: 0.8;
+}
+#txtspan{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+.txtmsg{
+  margin-top: 45px;
+}
+.btn-posicao{
+  margin-top: 30px;
+  width: 195px;
+  text-align: center;
+}
+.btn-cor{
+  background-color: rgb(182, 182, 182);
+  color: rgb(0, 0, 0)
+}
+.btn-cor:hover{
+  background-color: rgb(170, 170, 170);
+  color: rgb(49, 49, 49);
+  transform: scale(1.1);
+}
+#areatexto{
+  color: rgb(0, 0, 0);
+}
+
